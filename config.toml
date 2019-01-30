@@ -21,7 +21,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
         numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
 
-        localTime                = true                    # Show your current local time in contact section
+        localTime                = false                    # Show your current local time in contact section
         timeZone                 = "America/Fortaleza"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "h:mm A"                # https://momentjs.com/docs/#/displaying/format/
     [params.projects]
@@ -49,7 +49,6 @@ DefaultContentLanguage           = "en"                    # Default language fo
         url   = "https://github.com/afcavalcanti"
         icon  = "github" # icon name without the 'fa-'
         icon_pack = "fab"
-        html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
 
 
 # If you don't want to use the default menu, you can define one by yourself
@@ -73,28 +72,17 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "André Cavalcanti"
         [languages.en.params]
-            description  = "Website Description"   # Max 160 characters show in search results
+            description  = "Personal site"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
-    [languages.es]
-        languageName     = "Español"
-        languageCode     = "es"
-        contentDir       = "content/es"
+    [languages.pt-br]
+        languageName     = "Portugês"
+        languageCode     = "pt-br"
+        contentDir       = "content/pt-br"
         weight           = 1
-        title            = "Introducción"
-        [languages.es.params]
-            description  = "Descripcion del sitio web"
-            # footerText   = ""
-
-    [languages.de]
-        languageName     = "Deutsch"
-        languageCode     = "de"
-        contentDir       = "content/de"
-        weight           = 2
-        title            = "Vorstellung"
-        [languages.de.params]
-            dateFormat   = "2. January 2006"
-            description  = "Beschreibung der Webseite"
+        title            = "André Cavalcanti"
+        [languages.pt-br.params]
+            description  = "Site pessoal"
             # footerText   = ""
