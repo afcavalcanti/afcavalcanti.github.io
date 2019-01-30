@@ -39,15 +39,15 @@ DefaultContentLanguage           = "en"                    # Default language fo
     # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
     [[params.social]]
         url   = "https://linkedin.com/in/afcavalcanti"
-        icon  = "linkedin-in" # icon name without the 'fa-'
+        icon  = "linkedin" # icon name without the 'fa-'
         icon_pack = "fab"
-    [[params.social]]
-        url = "mailto:afcavalcanti99@gmail.com"  # For a direct email link, use "mailto:test@example.org".
-        icon = "envelope" # icon name without the 'fa-'
-        icon_pack = "fas"
     [[params.social]]
         url   = "https://github.com/afcavalcanti"
         icon  = "github" # icon name without the 'fa-'
+        icon_pack = "fab"
+    [[params.social]]
+        url   = "https://t.me/afcavalcanti"
+        icon  = "telegram" # icon name without the 'fa-'
         icon_pack = "fab"
 
 
