@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://afcavalcanti.github.io/projects/stirling_car/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://afcavalcanti.github.io/pt-br/projects/stirling_car/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://afcavalcanti.github.io/projects/stirling_car/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://afcavalcanti.github.io/projects/spacevant/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://afcavalcanti.github.io/pt-br/projects/spacevant/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://afcavalcanti.github.io/projects/spacevant/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://afcavalcanti.github.io/projects/leap/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://afcavalcanti.github.io/pt-br/projects/leap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://afcavalcanti.github.io/projects/leap/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://afcavalcanti.github.io/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://afcavalcanti.github.io/pt-br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://afcavalcanti.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://afcavalcanti.github.io/home/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://afcavalcanti.github.io/pt-br/home/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://afcavalcanti.github.io/home/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://afcavalcanti.github.io/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://afcavalcanti.github.io/pt-br/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://afcavalcanti.github.io/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://afcavalcanti.github.io/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://afcavalcanti.github.io/pt-br/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://afcavalcanti.github.io/tags/"
+                />
+  </url>
+  
+</urlset>

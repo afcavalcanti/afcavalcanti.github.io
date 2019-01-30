@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projetos on André Cavalcanti</title>
+    <link>https://afcavalcanti.github.io/pt-br/projects/</link>
+    <description>Recent content in Projetos on André Cavalcanti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    
+	<atom:link href="https://afcavalcanti.github.io/pt-br/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Carro Stirling</title>
+      <link>https://afcavalcanti.github.io/pt-br/projects/stirling_car/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://afcavalcanti.github.io/pt-br/projects/stirling_car/</guid>
+      <description>Este carro foi desenvolvido como prática de termodinâmica durante a minha graduação em engenharia mecânica.</description>
+    </item>
+    
+    <item>
+      <title>Suporte de carga externa para VANT</title>
+      <link>https://afcavalcanti.github.io/pt-br/projects/spacevant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://afcavalcanti.github.io/pt-br/projects/spacevant/</guid>
+      <description>Durante o tempo em que trabalhei no centro de lançamento da Barreira do Inferno (CLBI), minha tarefa era desenvolver um suporte de carga útil externa para um veículo aério não tripulado (VANT) do projeto SPACEVANT, para escaneamento e coleta de dados em áreas de missões espaciais.</description>
+    </item>
+    
+    <item>
+      <title>Desenvolvimento de jogos</title>
+      <link>https://afcavalcanti.github.io/pt-br/projects/leap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://afcavalcanti.github.io/pt-br/projects/leap/</guid>
+      <description>Durante a graduação em ciências e tecnologia trabalhei no Laboratório de Tecnologias Educacionais, Assistivas e Multimidia (TEAM), desenvolvi jogos para projetos do departamento de fisioterapia da UFRN utilizando Unity e Leap Motion.</description>
+    </item>
+    
+  </channel>
+</rss>
