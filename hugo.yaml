@@ -1,0 +1,514 @@
+baseURL: "https://afcavalcanti.github.io/"
+languageCode: "pt-br"
+title: "André Fonseca Cavalcanti"
+theme: hugo-profile
+
+defaultContentLanguage: "pt"
+defaultContentLanguageInSubdir: false
+
+languages:
+  pt:
+    languageName: "Português"
+    weight: 1
+    contentDir: "content"
+    menu:
+      main: []
+
+  en:
+    languageName: "English"
+    weight: 2
+    contentDir: "content/en"
+    menu:
+      main: []
+    params:
+      hero:
+        intro: "Hi, I'm"
+        title: "André Cavalcanti."
+        subtitle: "I build software that solves real industrial problems"
+        content: |-
+          Mechanical Engineer and software developer based in Natal, Brazil.
+          I combine hands-on field experience in industrial maintenance with AI and full-stack development
+          to create tools that actually get used on the shop floor.
+        button:
+          name: "Resume"
+          url: "/en/resume.pdf"
+          download: true
+          newPage: false
+      about:
+        title: "About Me"
+        content: |-
+          I'm a Mechanical Engineer with a Master's degree in Science, Technology and Innovation from UFRN,
+          where I researched autonomous AI-driven maintenance systems. Over the years I've managed maintenance
+          contracts at companies like Implasverde and Nordeste Fruit, translating operational pain into software.
+
+          I founded [Soluções Integradas](https://solucoesintegradas.com.br) to deliver end-to-end industrial
+          management solutions — from strategy and Lean implementation to custom software development.
+          My projects range from a cloud-based CMMS (ManOS) to a financial management platform (SOFIN)
+          and procurement tools for retail.
+        skills:
+          title: "Technologies I work with:"
+      experience:
+        items:
+          - company: "Soluções Integradas"
+            companyUrl: "https://solucoesintegradas.com.br"
+            jobs:
+              - name: "Founder & Industrial Management Consultant"
+                date: "2019 - Present"
+                content: |-
+                  Founded and run a consultancy specializing in industrial management and custom software development.
+                  Clients include manufacturing and agribusiness companies across Rio Grande do Norte.
+                  Deliver Lean, PDCA, and maintenance strategy alongside purpose-built software solutions.
+          - company: "Implasverde"
+            companyUrl: ""
+            jobs:
+              - name: "Maintenance Manager"
+                date: "2019 - 2021"
+                content: |-
+                  Led maintenance operations for a plastics manufacturer. Introduced structured preventive
+                  maintenance routines and KPI tracking, achieving a 33% increase in team productivity and
+                  a 17% reduction in maintenance costs over two years.
+          - company: "Nordeste Fruit"
+            companyUrl: ""
+            jobs:
+              - name: "Industrial Management Consultant"
+                date: "2020 - 2022"
+                content: |-
+                  Restructured maintenance and supply-chain processes at a fruit processing facility.
+                  Eliminated recurring stockouts of critical parts, improved energy efficiency, and
+                  reduced material losses through systematic inventory control and preventive planning.
+          - company: "Guararapes"
+            companyUrl: ""
+            jobs:
+              - name: "Maintenance Engineer"
+                date: "2018 - 2019"
+                content: |-
+                  Implemented automated production monitoring in the fabric cutting sector,
+                  replacing manual tracking with real-time data collection and reporting,
+                  enabling faster decision-making and reducing idle time.
+          - company: "SPACEVANT / DCTA"
+            companyUrl: ""
+            jobs:
+              - name: "UAV Research Engineer"
+                date: "2016 - 2017"
+                content: |-
+                  Developed a modular cargo transport and release mechanism for unmanned aerial vehicles
+                  as part of a research collaboration with Brazil's Department of Aerospace Science and Technology.
+      education:
+        items:
+          - title: "M.Sc. in Science, Technology and Innovation"
+            school:
+              name: "Universidade Federal do Rio Grande do Norte (UFRN)"
+              url: "https://ufrn.br"
+            date: "2023 - 2025"
+            content: |-
+              Thesis: *Machinery Guardian: Optimizing Maintenance with Artificial Intelligence and Autonomy*
+
+              Researched unsupervised AI systems for predictive and autonomous industrial maintenance,
+              combining anomaly detection, neural networks, and autonomous decision-making.
+          - title: "B.Eng. in Mechanical Engineering"
+            school:
+              name: "Universidade Federal do Rio Grande do Norte (UFRN)"
+              url: "https://ufrn.br"
+            date: "2012 - 2017"
+            content: |-
+              Final project: *Unsupervised Autonomous Maintenance System Using Artificial Intelligence*
+
+              Extracurricular: RoboCIn robotics team (autonomous soccer robot, LARS/SBR 2014),
+              UAV research project (CONEM 2016), Leap Motion gesture recognition (SVR 2017).
+      projects:
+        items:
+          - title: "ManOS"
+            content: |-
+              Cloud-based Computerized Maintenance Management System (CMMS). Manages work orders,
+              assets, preventive schedules, and maintenance KPIs for industrial clients.
+            image: /images/projects/manos.png
+            featured:
+              name: Live App
+              link: https://manos-cmms.web.app/
+            badges:
+              - "React"
+              - "Firebase"
+              - "TypeScript"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/afcavalcanti/manOS
+          - title: "SOFIN"
+            content: |-
+              Financial management platform for small and medium businesses. Tracks cash flow,
+              accounts payable/receivable, and generates management reports.
+            image: /images/projects/sofin.png
+            featured:
+              name: Live App
+              link: https://sofin-fms.web.app/
+            badges:
+              - "React"
+              - "Firebase"
+              - "JavaScript"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/afcavalcanti/sofin
+          - title: "CompraCerta"
+            content: |-
+              Procurement optimization tool for retail. Automates supplier comparison,
+              purchase order generation, and spending analysis.
+            image: /images/projects/compracerta.png
+            badges:
+              - "React"
+              - "Node.js"
+              - "TypeScript"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/afcavalcanti/CompraCerta
+          - title: "OpenInsurance"
+            content: |-
+              Insurance quotation aggregator. Connects brokers and insurers to generate
+              and compare policy quotes across multiple providers in a single workflow.
+            image: /images/projects/openinsurance.png
+            badges:
+              - "React"
+              - "Node.js"
+              - "JavaScript"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/afcavalcanti/openinsurance
+      achievements:
+        items:
+          - title: "IRF2020 — International Conference on Integrity-Reliability-Failure"
+            content: |-
+              Two papers accepted: detection and classification of water chiller failures
+              and bag-making machine failures using artificial neural networks. Funchal, Portugal, 2020.
+            image: /images/achievements/irf2020.jpg
+          - title: "SVR 2017 — Symposium on Virtual and Augmented Reality"
+            content: |-
+              Published research on hand posture recognition using Leap Motion controller.
+              Curitiba, Brazil, 2017. DOI: 10.1109/SVR.2017.49
+            image: /images/achievements/svr2017.jpg
+          - title: "CONEM 2016 — National Congress of Mechanical Engineering"
+            content: |-
+              Published UAV cargo transport and release support system.
+              Fortaleza, Brazil, 2016. DOI: 10.20906/CPS/CON-2016-0414
+            image: /images/achievements/conem2016.jpg
+          - title: "LARS/SBR Robotics Symposium 2014"
+            content: |-
+              Developed a small wheeled autonomous mobile soccer robot as part of RoboCIn team.
+              São Carlos, Brazil, 2014. DOI: 10.1109/SBR.LARS.Robocontrol.2014.33
+            image: /images/achievements/lars2014.jpg
+      contact:
+        content: |-
+          My inbox is always open. Whether you want to discuss a project, a consulting opportunity,
+          or just connect, I'll get back to you as soon as possible.
+        btnName: "Email me"
+        btnLink: "mailto:contato@solucoesintegradas.com.br"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "André Fonseca Cavalcanti"
+  description: "Engenheiro Mecânico e desenvolvedor de software especializado em gestão industrial e automação com IA."
+  favicon: "/images/favicon.png"
+
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+    defaultTheme: "light"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "André Cavalcanti"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Olá, meu nome é"
+    title: "André Cavalcanti."
+    subtitle: "Desenvolvo software que resolve problemas industriais reais"
+    content: |-
+      Engenheiro Mecânico e desenvolvedor de software baseado em Natal/RN.
+      Combino experiência de campo em manutenção industrial com IA e desenvolvimento full-stack
+      para criar ferramentas que funcionam no chão de fábrica.
+    image: /images/hero.svg
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Currículo"
+      url: "/resume.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/afcavalcanti
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/afcavalcanti
+
+  about:
+    enable: true
+    title: "Sobre Mim"
+    image: "/images/me.jpg"
+    content: |-
+      Sou Engenheiro Mecânico com Mestrado em Ciência, Tecnologia e Inovação pela UFRN,
+      onde pesquisei sistemas autônomos de manutenção baseados em IA. Ao longo dos anos gerenciei
+      contratos de manutenção em empresas como Implasverde e Nordeste Fruit, transformando dor
+      operacional em software.
+
+      Fundei a [Soluções Integradas](https://solucoesintegradas.com.br) para entregar soluções
+      completas de gestão industrial — da estratégia e implementação de Lean ao desenvolvimento
+      de software personalizado. Meus projetos vão de um CMMS em nuvem (ManOS) a uma plataforma
+      de gestão financeira (SOFIN) e ferramentas de compras para o varejo.
+    skills:
+      enable: true
+      title: "Tecnologias com as quais trabalho:"
+      items:
+        - "Python"
+        - "JavaScript / TypeScript"
+        - "React"
+        - "Node.js"
+        - "Firebase"
+        - "SQL"
+        - "Metabase"
+        - "Excel VBA"
+        - "Scilab"
+        - "Fusion 360 / SolidWorks"
+        - "Lean / PDCA"
+        - "Machine Learning"
+
+  experience:
+    enable: true
+    title: "Experiência"
+    items:
+      - company: "Soluções Integradas"
+        companyUrl: "https://solucoesintegradas.com.br"
+        jobs:
+          - name: "Fundador e Consultor de Gestão Industrial"
+            date: "2019 - Presente"
+            content: |-
+              Fundei e dirijo uma consultoria especializada em gestão industrial e desenvolvimento
+              de software personalizado. Clientes incluem empresas de manufatura e agronegócio
+              no Rio Grande do Norte. Entrego Lean, PDCA e estratégia de manutenção junto com
+              soluções de software sob medida.
+      - company: "Implasverde"
+        companyUrl: ""
+        jobs:
+          - name: "Gestor de Manutenção"
+            date: "2019 - 2021"
+            content: |-
+              Liderou as operações de manutenção de um fabricante de plásticos. Implementou rotinas
+              estruturadas de manutenção preventiva e acompanhamento de KPIs, alcançando aumento de
+              33% na produtividade da equipe e redução de 17% nos custos de manutenção em dois anos.
+      - company: "Nordeste Fruit"
+        companyUrl: ""
+        jobs:
+          - name: "Consultor de Gestão Industrial"
+            date: "2020 - 2022"
+            content: |-
+              Reestruturou processos de manutenção e cadeia de suprimentos em uma processadora
+              de frutas. Eliminou a falta recorrente de peças críticas, melhorou a eficiência
+              energética e reduziu perdas de material por meio de controle sistemático de estoque
+              e planejamento preventivo.
+      - company: "Guararapes"
+        companyUrl: ""
+        jobs:
+          - name: "Engenheiro de Manutenção"
+            date: "2018 - 2019"
+            content: |-
+              Implementou monitoramento automatizado da produção no setor de corte de tecido,
+              substituindo o controle manual por coleta de dados em tempo real e relatórios,
+              permitindo tomada de decisão mais rápida e redução do tempo ocioso.
+      - company: "SPACEVANT / DCTA"
+        companyUrl: ""
+        jobs:
+          - name: "Engenheiro de Pesquisa em VANTs"
+            date: "2016 - 2017"
+            content: |-
+              Desenvolveu um mecanismo modular de transporte e lançamento de carga para veículos
+              aéreos não tripulados em colaboração com o Departamento de Ciência e Tecnologia
+              Aeroespacial do Brasil.
+
+  education:
+    enable: true
+    title: "Educação"
+    index: false
+    items:
+      - title: "Mestrado em Ciência, Tecnologia e Inovação"
+        school:
+          name: "Universidade Federal do Rio Grande do Norte (UFRN)"
+          url: "https://ufrn.br"
+        date: "2023 - 2025"
+        content: |-
+          Dissertação: *Machinery Guardian: Otimizando Manutenção com Inteligência Artificial e Autonomia*
+
+          Pesquisei sistemas autônomos não supervisionados de IA para manutenção preditiva industrial,
+          combinando detecção de anomalias, redes neurais e tomada de decisão autônoma.
+      - title: "Bacharelado em Engenharia Mecânica"
+        school:
+          name: "Universidade Federal do Rio Grande do Norte (UFRN)"
+          url: "https://ufrn.br"
+        date: "2012 - 2017"
+        content: |-
+          TCC: *Sistema de Manutenção Autônoma Não Supervisionado com o Uso de Inteligência Artificial*
+
+          Extracurricular: equipe de robótica RoboCIn (robô autônomo de futebol, LARS/SBR 2014),
+          projeto de pesquisa em VANTs (CONEM 2016), reconhecimento de gestos com Leap Motion (SVR 2017).
+
+  achievements:
+    enable: true
+    title: "Publicações & Conquistas"
+    items:
+      - title: "IRF2020 — International Conference on Integrity-Reliability-Failure"
+        content: |-
+          Dois artigos aceitos: detecção e classificação de falhas em chillers de água e máquinas
+          de fazer sacolas usando redes neurais artificiais. Funchal, Portugal, 2020.
+        image: /images/achievements/irf2020.jpg
+      - title: "SVR 2017 — Simpósio de Realidade Virtual e Aumentada"
+        content: |-
+          Publicou pesquisa sobre reconhecimento de postura de mão com controlador Leap Motion.
+          Curitiba, Brasil, 2017. DOI: 10.1109/SVR.2017.49
+        image: /images/achievements/svr2017.jpg
+      - title: "CONEM 2016 — Congresso Nacional de Engenharia Mecânica"
+        content: |-
+          Publicou suporte para transporte e lançamento de carga a partir de VANT.
+          Fortaleza, Brasil, 2016. DOI: 10.20906/CPS/CON-2016-0414
+        image: /images/achievements/conem2016.jpg
+      - title: "LARS/SBR Robotics Symposium 2014"
+        content: |-
+          Desenvolveu um pequeno robô autônomo de futebol com rodas como parte da equipe RoboCIn.
+          São Carlos, Brasil, 2014. DOI: 10.1109/SBR.LARS.Robocontrol.2014.33
+        image: /images/achievements/lars2014.jpg
+
+  projects:
+    enable: true
+    title: "Projetos"
+    items:
+      - title: "ManOS"
+        content: |-
+          Sistema de Gerenciamento de Manutenção Computadorizado (CMMS) em nuvem. Gerencia ordens
+          de serviço, ativos, cronogramas preventivos e KPIs de manutenção para clientes industriais.
+        image: /images/projects/manos.png
+        featured:
+          name: App ao Vivo
+          link: https://manos-cmms.web.app/
+        badges:
+          - "React"
+          - "Firebase"
+          - "TypeScript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/afcavalcanti/manOS
+      - title: "SOFIN"
+        content: |-
+          Plataforma de gestão financeira para pequenas e médias empresas. Acompanha fluxo de caixa,
+          contas a pagar/receber e gera relatórios gerenciais.
+        image: /images/projects/sofin.png
+        featured:
+          name: App ao Vivo
+          link: https://sofin-fms.web.app/
+        badges:
+          - "React"
+          - "Firebase"
+          - "JavaScript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/afcavalcanti/sofin
+      - title: "CompraCerta"
+        content: |-
+          Ferramenta de otimização de compras para varejo. Automatiza comparação de fornecedores,
+          geração de pedidos de compra e análise de gastos.
+        image: /images/projects/compracerta.png
+        badges:
+          - "React"
+          - "Node.js"
+          - "TypeScript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/afcavalcanti/CompraCerta
+      - title: "OpenInsurance"
+        content: |-
+          Agregador de cotações de seguros. Conecta corretores e seguradoras para gerar e comparar
+          cotações de apólices de múltiplos provedores em um único fluxo de trabalho.
+        image: /images/projects/openinsurance.png
+        badges:
+          - "React"
+          - "Node.js"
+          - "JavaScript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/afcavalcanti/openinsurance
+
+  contact:
+    enable: true
+    title: "Contato"
+    content: |-
+      Minha caixa de entrada está sempre aberta. Seja para discutir um projeto, uma oportunidade
+      de consultoria ou apenas para se conectar, responderei o mais rápido possível.
+    btnName: "Me envie um e-mail"
+    btnLink: "mailto:contato@solucoesintegradas.com.br"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Posts Recentes
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/afcavalcanti
+      linkedin: https://linkedin.com/in/afcavalcanti
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: false
+      content: "min de leitura"
+    scrollprogress:
+      enable: true
+
+  terms:
+    read: "Ler"
+    toc: "Índice"
+    copyright: "Todos os direitos reservados"
+    emailText: "Confira este site"
+
+  datesFormat:
+    article: "2 Jan 2006"
+    articleList: "2 Jan 2006"
+    articleRecent: "2 Jan 2006"
