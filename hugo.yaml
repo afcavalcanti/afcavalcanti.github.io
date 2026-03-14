@@ -164,44 +164,32 @@ languages:
               assets, preventive schedules, and maintenance KPIs for industrial clients.
             image: /images/projects/manos.png
             featured:
-              name: Live App
-              link: https://manos-cmms.web.app/
-            links:
-              - icon: fab fa-github
-                url: https://github.com/afcavalcanti/manOS
+              name: Conhecer
+              link: https://solucoesintegradas.com.br/manos/
           - title: "SOFIN"
             content: |-
               Financial management platform for small and medium businesses. Tracks cash flow,
               accounts payable/receivable, and generates management reports.
             image: /images/projects/sofin.png
             featured:
-              name: Live App
-              link: https://sofin-fms.web.app/
-            links:
-              - icon: fab fa-github
-                url: https://github.com/afcavalcanti/sofin
+              name: Conhecer
+              link: https://solucoesintegradas.com.br/sofin/
           - title: "CompraCerta"
             content: |-
               Procurement optimization tool for retail. Automates supplier comparison,
               purchase order generation, and spending analysis.
             image: /images/projects/compracerta.png
             featured:
-              name: Live App
+              name: Conhecer
               link: https://compra-certa-lilac.vercel.app/login
-            links:
-              - icon: fab fa-github
-                url: https://github.com/afcavalcanti/CompraCerta
           - title: "MeuSeguro+"
             content: |-
               Insurance quotation aggregator. Connects brokers and insurers to generate
               and compare policy quotes across multiple providers in a single workflow.
             image: /images/projects/meuseguro+.png
             featured:
-              name: Live App
+              name: Conhecer
               link: https://seguro-open.up.railway.app/
-            links:
-              - icon: fab fa-github
-                url: https://github.com/afcavalcanti/openinsurance
       achievements:
         items:
           - title: "Champion — IEEE Very Small Size · Brazilian Robotics Competition"
@@ -450,44 +438,32 @@ params:
           de serviço, ativos, cronogramas preventivos e KPIs de manutenção para clientes industriais.
         image: /images/projects/manos.png
         featured:
-          name: App ao Vivo
-          link: https://manos-cmms.web.app/
-        links:
-          - icon: fab fa-github
-            url: https://github.com/afcavalcanti/manOS
+          name: Conhecer
+          link: https://solucoesintegradas.com.br/manos/
       - title: "SOFIN"
         content: |-
           Plataforma de gestão financeira para pequenas e médias empresas. Acompanha fluxo de caixa,
           contas a pagar/receber e gera relatórios gerenciais.
         image: /images/projects/sofin.png
         featured:
-          name: App ao Vivo
-          link: https://sofin-fms.web.app/
-        links:
-          - icon: fab fa-github
-            url: https://github.com/afcavalcanti/sofin
+          name: Conhecer
+          link: https://solucoesintegradas.com.br/sofin/
       - title: "CompraCerta"
         content: |-
           Ferramenta de otimização de compras para varejo. Automatiza comparação de fornecedores,
           geração de pedidos de compra e análise de gastos.
         image: /images/projects/compracerta.png
         featured:
-          name: App ao Vivo
+          name: Conhecer
           link: https://compra-certa-lilac.vercel.app/login
-        links:
-          - icon: fab fa-github
-            url: https://github.com/afcavalcanti/CompraCerta
       - title: "MeuSeguro+"
         content: |-
           Agregador de cotações de seguros. Conecta corretores e seguradoras para gerar e comparar
           cotações de apólices de múltiplos provedores em um único fluxo de trabalho.
         image: /images/projects/meuseguro+.png
         featured:
-          name: App ao Vivo
+          name: Conhecer
           link: https://seguro-open.up.railway.app/
-        links:
-          - icon: fab fa-github
-            url: https://github.com/afcavalcanti/openinsurance
 
   contact:
     enable: true
