@@ -166,10 +166,6 @@ languages:
             featured:
               name: Live App
               link: https://manos-cmms.web.app/
-            badges:
-              - "React"
-              - "Firebase"
-              - "TypeScript"
             links:
               - icon: fab fa-github
                 url: https://github.com/afcavalcanti/manOS
@@ -181,10 +177,6 @@ languages:
             featured:
               name: Live App
               link: https://sofin-fms.web.app/
-            badges:
-              - "React"
-              - "Firebase"
-              - "JavaScript"
             links:
               - icon: fab fa-github
                 url: https://github.com/afcavalcanti/sofin
@@ -196,10 +188,6 @@ languages:
             featured:
               name: Live App
               link: https://compra-certa-lilac.vercel.app/login
-            badges:
-              - "React"
-              - "Node.js"
-              - "TypeScript"
             links:
               - icon: fab fa-github
                 url: https://github.com/afcavalcanti/CompraCerta
@@ -211,10 +199,6 @@ languages:
             featured:
               name: Live App
               link: https://seguro-open.up.railway.app/
-            badges:
-              - "React"
-              - "Node.js"
-              - "JavaScript"
             links:
               - icon: fab fa-github
                 url: https://github.com/afcavalcanti/openinsurance
@@ -468,10 +452,6 @@ params:
         featured:
           name: App ao Vivo
           link: https://manos-cmms.web.app/
-        badges:
-          - "React"
-          - "Firebase"
-          - "TypeScript"
         links:
           - icon: fab fa-github
             url: https://github.com/afcavalcanti/manOS
@@ -483,10 +463,6 @@ params:
         featured:
           name: App ao Vivo
           link: https://sofin-fms.web.app/
-        badges:
-          - "React"
-          - "Firebase"
-          - "JavaScript"
         links:
           - icon: fab fa-github
             url: https://github.com/afcavalcanti/sofin
@@ -498,10 +474,6 @@ params:
         featured:
           name: App ao Vivo
           link: https://compra-certa-lilac.vercel.app/login
-        badges:
-          - "React"
-          - "Node.js"
-          - "TypeScript"
         links:
           - icon: fab fa-github
             url: https://github.com/afcavalcanti/CompraCerta
@@ -513,10 +485,6 @@ params:
         featured:
           name: App ao Vivo
           link: https://seguro-open.up.railway.app/
-        badges:
-          - "React"
-          - "Node.js"
-          - "JavaScript"
         links:
           - icon: fab fa-github
             url: https://github.com/afcavalcanti/openinsurance
