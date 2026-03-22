@@ -30,6 +30,7 @@ languages:
           I combine hands-on field experience in industrial management with AI and full-stack development
           to create tools that actually get used on the shop floor.
         button:
+          enable: true
           name: "Resume"
           url: "/en/resume.pdf"
           download: true
