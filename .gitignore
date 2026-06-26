@@ -2,4 +2,31 @@ public/
 resources/
 .hugo_build.lock
 theme-source/
-theme-source/
+
+# OMC orchestration state
+.omc/
+
+# Node stub (project is Hugo-only)
+package.json
+node_modules/
+
+# Nested git repo (managed separately)
+github-profile-readme/
+
+# CV working files / Overleaf exports
+CV_Andre_overleaf.zip
+cv_overleaf_tmp/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+europass.html
+europass.pdf
+europass_en.pdf
