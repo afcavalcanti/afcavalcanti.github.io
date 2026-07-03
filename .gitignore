@@ -13,9 +13,11 @@ node_modules/
 # Nested git repo (managed separately)
 github-profile-readme/
 
-# CV working files / Overleaf exports
-CV_Andre_overleaf.zip
-cv_overleaf_tmp/
+# CV / academic material (docs/cv) — track .tex sources, ignore the rest
+docs/cv/build/
+docs/cv/overleaf/
+docs/cv/*.zip
+docs/cv/*.pdf
 
 # LaTeX build artifacts
 *.aux
@@ -27,6 +29,3 @@ cv_overleaf_tmp/
 *.toc
 *.fls
 *.fdb_latexmk
-europass.html
-europass.pdf
-europass_en.pdf
