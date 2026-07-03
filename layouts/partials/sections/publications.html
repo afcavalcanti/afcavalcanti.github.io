@@ -1,0 +1,30 @@
+{{ if .Site.Params.publications.enable | default false }}
+{{- $publications := .Site.Language.Params.publications | default .Site.Params.publications -}}
+<section id="publications" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ $publications.title | default .Site.Params.publications.title | default "Publications" }}</h3>
+        {{ with $publications.subtitle }}
+        <p class="text-center pt-2 mb-0"><small class="text-muted">{{ . }}</small></p>
+        {{ end }}
+        <div class="row justify-content-center py-4">
+            {{ range $publications.items | default .Site.Params.publications.items }}
+            <div class="col-12 col-lg-9 p-0">
+                <div class="card m-1 mb-3">
+                    <div class="card-body">
+                        <div class="float-end ps-2"><small class="text-muted">{{ .year }}</small></div>
+                        <h5 class="card-title">{{ .title }}</h5>
+                        <h6 class="text-muted mb-1">{{ .venue }}</h6>
+                        {{ with .authors }}<small class="text-muted">{{ . }}</small>{{ end }}
+                        {{ with .link }}
+                        <div class="pt-2">
+                            <a href="{{ . }}" target="_blank" rel="noopener" class="btn">DOI</a>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

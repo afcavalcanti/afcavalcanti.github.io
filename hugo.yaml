@@ -158,6 +158,46 @@ languages:
               UFRN's robot soccer team; champion in the IEEE Very Small Size category at
               the Brazilian Robotics Competition (2013); hand posture recognition with
               Leap Motion, published at SVR 2017.
+      publications:
+        enable: true
+        title: "Publications"
+        subtitle: "Peer-reviewed conference papers · full record on Lattes"
+        items:
+          - year: "2020"
+            title: "Detection and Classification of Water Chiller Failures Using Artificial Neural Networks"
+            venue: "7th International Conference on Integrity-Reliability-Failure (IRF2020) · Funchal, Portugal · pp. 91–92"
+            authors: "Cavalcanti, A. F.; Souza, A. S.; Pinto, A. P. V.; Oliveira, L. P. W.; Julião, R. B.; Cabral, M. A. L.; Matamoros, E. P.; Seabra, E. A. R."
+          - year: "2020"
+            title: "Detection and Classification of Bag Making Machine Failures Using Artificial Neural Networks"
+            venue: "7th International Conference on Integrity-Reliability-Failure (IRF2020) · Funchal, Portugal"
+            authors: "Cavalcanti, A. F.; Oliveira, L. P. W.; Cabral, M. A. L.; Matamoros, E. P.; Seabra, E. A. R."
+          - year: "2017"
+            title: "Evaluate Leap Motion Control for Multiple Hand Posture Recognition"
+            venue: "19th Symposium on Virtual and Augmented Reality (SVR) · Curitiba, Brazil"
+            authors: "Cavalcanti, A. F.; Medeiros, F. B. S.; Dantas, R. R."
+            link: "https://doi.org/10.1109/SVR.2017.49"
+          - year: "2016"
+            title: "Cargo Transport and Launch Support from an Unmanned Aerial Vehicle"
+            venue: "IX Brazilian National Congress of Mechanical Engineering (CONEM) · Fortaleza, Brazil"
+            authors: "Cavalcanti, A. F.; Medeiros Neto, J. F.; Landim, V. R. F.; Dantas, J. B. D.; Albuquerque, G. L. A."
+            link: "https://doi.org/10.20906/CPS/CON-2016-0414"
+          - year: "2014"
+            title: "Small Wheeled Autonomous Mobile Soccer Robot"
+            venue: "Joint Conference on Robotics: SBR-LARS Robotics Symposium and Robocontrol · São Carlos, Brazil · p. 49"
+            authors: "Cavalcanti, A. F.; Araújo, M. V.; Pedrosa, D. P. F."
+            link: "https://doi.org/10.1109/SBR.LARS.Robocontrol.2014.33"
+          - year: "2014"
+            title: "Electromechanical Kicking System for Autonomous Mobile Robots"
+            venue: "IX North-Northeast Congress of Research and Innovation (CONNEPI) · São Luís, Brazil"
+            authors: "Cavalcanti, A. F.; Araújo, M. V.; Pedrosa, D. P. F."
+          - year: "2014"
+            title: "Selection of a Kicking Mechanism for an Autonomous Mobile Robot"
+            venue: "Brazilian Robotics Exhibition (Mostra Nacional de Robótica) · São Carlos, Brazil"
+            authors: "Cavalcanti, A. F.; Araújo, M. V.; Pedrosa, D. P. F."
+          - year: "2013"
+            title: "Articulated Mount for a Global Vision System of Mobile Robots"
+            venue: "VIII North-Northeast Congress of Research and Innovation (CONNEPI) · Salvador, Brazil"
+            authors: "Cavalcanti, A. F.; Araújo, M. V.; Pedrosa, D. P. F."
       projects:
         items:
           - title: "ManOS"
@@ -447,6 +487,47 @@ params:
           para futebol de robôs da UFRN; campeã da categoria IEEE Very Small Size na
           Competição Brasileira de Robótica (2013); reconhecimento de postura de mão com
           Leap Motion, publicado no SVR 2017.
+
+  publications:
+    enable: true
+    title: "Publicações"
+    subtitle: "Trabalhos revisados por pares · registro completo no Lattes"
+    items:
+      - year: "2020"
+        title: "Detection and Classification of Water Chiller Failures Using Artificial Neural Networks"
+        venue: "7th International Conference on Integrity-Reliability-Failure (IRF2020) · Funchal, Portugal · pp. 91–92"
+        authors: "Cavalcanti, A. F.; Souza, A. S.; Pinto, A. P. V.; Oliveira, L. P. W.; Julião, R. B.; Cabral, M. A. L.; Matamoros, E. P.; Seabra, E. A. R."
+      - year: "2020"
+        title: "Detection and Classification of Bag Making Machine Failures Using Artificial Neural Networks"
+        venue: "7th International Conference on Integrity-Reliability-Failure (IRF2020) · Funchal, Portugal"
+        authors: "Cavalcanti, A. F.; Oliveira, L. P. W.; Cabral, M. A. L.; Matamoros, E. P.; Seabra, E. A. R."
+      - year: "2017"
+        title: "Evaluate Leap Motion Control for Multiple Hand Posture Recognition"
+        venue: "19th Symposium on Virtual and Augmented Reality (SVR) · Curitiba, Brasil"
+        authors: "Cavalcanti, A. F.; Medeiros, F. B. S.; Dantas, R. R."
+        link: "https://doi.org/10.1109/SVR.2017.49"
+      - year: "2016"
+        title: "Suporte para Transporte e Lançamento de Carga a Partir de um Veículo Aéreo Não Tripulado"
+        venue: "IX Congresso Nacional de Engenharia Mecânica (CONEM) · Fortaleza, Brasil"
+        authors: "Cavalcanti, A. F.; Medeiros Neto, J. F.; Landim, V. R. F.; Dantas, J. B. D.; Albuquerque, G. L. A."
+        link: "https://doi.org/10.20906/CPS/CON-2016-0414"
+      - year: "2014"
+        title: "Small Wheeled Autonomous Mobile Soccer Robot"
+        venue: "Joint Conference on Robotics: SBR-LARS Robotics Symposium and Robocontrol · São Carlos, Brasil · p. 49"
+        authors: "Cavalcanti, A. F.; Araújo, M. V.; Pedrosa, D. P. F."
+        link: "https://doi.org/10.1109/SBR.LARS.Robocontrol.2014.33"
+      - year: "2014"
+        title: "Sistema de Chute Eletromecânico para Robôs Móveis Autônomos"
+        venue: "IX Congresso Norte Nordeste de Pesquisa e Inovação (CONNEPI) · São Luís, Brasil"
+        authors: "Cavalcanti, A. F.; Araújo, M. V.; Pedrosa, D. P. F."
+      - year: "2014"
+        title: "Seleção de Mecanismo de Chute para Robô Móvel Autônomo"
+        venue: "Mostra Nacional de Robótica · São Carlos, Brasil"
+        authors: "Cavalcanti, A. F.; Araújo, M. V.; Pedrosa, D. P. F."
+      - year: "2013"
+        title: "Suporte Articulado para Sistema de Visão Global de Robôs Móveis"
+        venue: "VIII Congresso Norte Nordeste de Pesquisa e Inovação (CONNEPI) · Salvador, Brasil"
+        authors: "Cavalcanti, A. F.; Araújo, M. V.; Pedrosa, D. P. F."
 
   achievements:
     enable: true
