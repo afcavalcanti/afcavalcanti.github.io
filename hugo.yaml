@@ -21,6 +21,7 @@ languages:
     menu:
       main: []
     params:
+      description: "Mechanical Engineer and software developer specialized in industrial management and AI-driven automation."
       hero:
         intro: "Hi, I'm"
         title: "André Cavalcanti."
@@ -200,7 +201,7 @@ languages:
             image: /images/projects/compracerta.png
             featured:
               name: Conhecer
-              link: https://compra-certa-lilac.vercel.app/login
+              link: https://solucoesintegradas.com.br/compracerta/
           - title: "MeuSeguro+"
             content: |-
               Insurance quotation aggregator. Connects brokers and insurers to generate
@@ -208,7 +209,7 @@ languages:
             image: /images/projects/meuseguro+.png
             featured:
               name: Conhecer
-              link: https://seguro-open.up.railway.app/
+              link: https://solucoesintegradas.com.br/en/products/#meuseguro
       achievements:
         items:
           - title: "Champion — IEEE Very Small Size · Brazilian Robotics Competition"
@@ -235,7 +236,7 @@ outputs:
 enableRobotsTXT: true
 
 pagination:
-  pagerSize: 3
+  pagerSize: 6
 
 markup:
   goldmark:
@@ -245,6 +246,8 @@ markup:
 params:
   title: "André Fonseca Cavalcanti"
   description: "Engenheiro Mecânico e desenvolvedor de software especializado em gestão industrial e automação com IA."
+  images:
+    - "/images/og-card.png"
   favicon: "/images/favicon.svg"
 
   useBootstrapCDN: false
@@ -492,7 +495,7 @@ params:
         image: /images/projects/compracerta.png
         featured:
           name: Conhecer
-          link: https://compra-certa-lilac.vercel.app/login
+          link: https://solucoesintegradas.com.br/compracerta/
       - title: "MeuSeguro+"
         content: |-
           Agregador de cotações de seguros. Conecta corretores e seguradoras para gerar e comparar
@@ -500,7 +503,7 @@ params:
         image: /images/projects/meuseguro+.png
         featured:
           name: Conhecer
-          link: https://seguro-open.up.railway.app/
+          link: https://solucoesintegradas.com.br/produtos/#meuseguro
 
   contact:
     enable: true
