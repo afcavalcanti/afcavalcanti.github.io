@@ -304,6 +304,10 @@ params:
           url: https://github.com/afcavalcanti
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/afcavalcanti
+        - icon: fab fa-orcid
+          url: https://orcid.org/0000-0002-8186-3208
+        - icon: fas fa-graduation-cap
+          url: https://lattes.cnpq.br/7757695373242500
 
   about:
     enable: true
