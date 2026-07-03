@@ -235,6 +235,10 @@ outputs:
 
 enableRobotsTXT: true
 
+services:
+  googleAnalytics:
+    ID: G-N766WJWNJM
+
 pagination:
   pagerSize: 6
 
