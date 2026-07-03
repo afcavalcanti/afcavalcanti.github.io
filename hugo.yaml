@@ -175,6 +175,24 @@ languages:
             featured:
               name: Conhecer
               link: https://solucoesintegradas.com.br/sofin/
+          - title: "Quantto"
+            content: |-
+              Pricing intelligence platform for grocery retail. Monitors competitor prices from
+              public electronic consumer invoices (NFC-e/SEFAZ) and shows, product by product,
+              the store's competitive position and a suggested repricing point.
+            image: /images/projects/quantto.png
+            featured:
+              name: Conhecer
+              link: https://solucoesintegradas.com.br/en/quantto/
+          - title: "AI Object Detection"
+            content: |-
+              Computer-vision system that detects and classifies electrical grid assets in the
+              field — 17 classes plus nameplate OCR — from field imagery. Built by Soluções
+              Integradas and validated by Intellissis in real operation, reaching 85.6% mAP50.
+            image: /images/projects/deteccao-objetos.png
+            featured:
+              name: Conhecer
+              link: https://solucoesintegradas.com.br/en/cases/electrical-asset-detection/
           - title: "CompraCerta"
             content: |-
               Procurement optimization tool for retail. Automates supplier comparison,
@@ -449,6 +467,24 @@ params:
         featured:
           name: Conhecer
           link: https://solucoesintegradas.com.br/sofin/
+      - title: "Quantto"
+        content: |-
+          Plataforma de inteligência de preços para o varejo supermercadista. Monitora os preços
+          dos concorrentes a partir de notas fiscais públicas (NFC-e/SEFAZ) e indica, produto a
+          produto, a posição competitiva e o preço sugerido de reprecificação.
+        image: /images/projects/quantto.png
+        featured:
+          name: Conhecer
+          link: https://solucoesintegradas.com.br/quantto/
+      - title: "Detecção de Objetos com IA"
+        content: |-
+          Sistema de visão computacional que detecta e classifica ativos de redes elétricas em
+          campo — 17 classes e OCR de placas — a partir de imagens. Desenvolvido pela Soluções
+          Integradas e validado pela Intellissis em operação real, com 85,6% de mAP50.
+        image: /images/projects/deteccao-objetos.png
+        featured:
+          name: Conhecer
+          link: https://solucoesintegradas.com.br/cases/detector-ativos-eletricos/
       - title: "CompraCerta"
         content: |-
           Ferramenta de otimização de compras para varejo. Automatiza comparação de fornecedores,
