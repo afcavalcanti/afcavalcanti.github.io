@@ -77,14 +77,14 @@ languages:
                 date: "Jan 2022 - Apr 2025"
                 content: |-
                   Managed a cross-functional team of 160 employees across production and support
-                  sectors. Strategies implemented resulted in production and process optimization,
-                  aligned with corporate objectives.
+                  sectors. Strategies implemented resulted in production and process optimization
+                  aligned with corporate objectives, delivering a 33% increase in productivity.
               - name: "Maintenance Supervisor"
                 date: "Nov 2020 - Dec 2021"
                 content: |-
                   Led a team of 10 professionals in the successful implementation of Maintenance
-                  Planning and Control (PCM). Strategic actions resulted in significant improvements
-                  in operational efficiency, cost reduction and productivity increase.
+                  Planning and Control (PCM). Strategic actions reduced maintenance costs by 17%
+                  and raised operational efficiency.
           - company: "Guararapes Confecções"
             companyUrl: "https://ri.riachuelo.com.br/"
             jobs:
@@ -109,7 +109,7 @@ languages:
             companyUrl: "https://portal.imd.ufrn.br/"
             jobs:
               - name: "Intern · Prototyping Lab"
-                date: "Jan 2018 - Apr 2019"
+                date: "Feb 2018 - Feb 2021"
                 content: |-
                   Developed electronic and mechanical prototypes for research conducted by
                   UFRN laboratories, working in a multidisciplinary capacity alongside
@@ -135,8 +135,8 @@ languages:
               Thesis: *Machinery Guardian: Optimizing Maintenance with Artificial Intelligence and Autonomy*
 
               Extracurricular: developed an unsupervised autonomous maintenance system for wind
-              turbine gearboxes using SOM neural networks; project certified by
-              [ABS Wind do Brasil](https://abswind.com.br/) in January 2024.
+              turbine gearboxes using SOM neural networks, with field work carried out at
+              [ABS Wind do Brasil](https://abswind.com.br/).
           - title: "B.Eng. in Mechanical Engineering"
             school:
               name: "Universidade Federal do Rio Grande do Norte (UFRN)"
@@ -400,14 +400,14 @@ params:
             content: |-
               Gerenciamento de uma equipe multifuncional de 160 colaboradores, supervisionando
               operações em diversos setores produtivos e de apoio. Estratégias implementadas
-              resultaram em otimização da produção e processos, alinhados aos objetivos corporativos.
+              resultaram em otimização da produção e processos, alinhados aos objetivos
+              corporativos, com aumento de 33% na produtividade.
           - name: "Supervisor de Manutenção"
             date: "Nov 2020 - Dez 2021"
             content: |-
               Liderança de equipe composta por 10 profissionais na implantação bem-sucedida do
-              Planejamento e Controle da Manutenção (PCM). Ações estratégicas resultaram em
-              melhorias significativas na eficiência operacional, redução de custos e aumento
-              da produtividade.
+              Planejamento e Controle da Manutenção (PCM). Ações estratégicas reduziram em 17%
+              os custos de manutenção e elevaram a eficiência operacional.
       - company: "Guararapes Confecções"
         companyUrl: "https://ri.riachuelo.com.br/"
         jobs:
@@ -433,7 +433,7 @@ params:
         companyUrl: "https://portal.imd.ufrn.br/"
         jobs:
           - name: "Estagiário · Laboratório de Prototipagem"
-            date: "Jan 2018 - Abr 2019"
+            date: "Fev 2018 - Fev 2021"
             content: |-
               Desenvolveu protótipos de projetos eletrônicos e mecânicos para pesquisas
               conduzidas pelos laboratórios da UFRN, atuando de forma multidisciplinar
@@ -464,8 +464,8 @@ params:
           Dissertação: *Machinery Guardian: Otimizando Manutenção com Inteligência Artificial e Autonomia*
 
           Extracurricular: desenvolvimento do sistema de manutenção autônomo não supervisionado
-          para gearboxes de aerogeradores usando redes neurais SOM; projeto certificado pela
-          [ABS Wind do Brasil](https://abswind.com.br/) em janeiro de 2024.
+          para gearboxes de aerogeradores usando redes neurais SOM, com trabalho de campo
+          realizado na [ABS Wind do Brasil](https://abswind.com.br/).
       - title: "Bacharelado em Engenharia Mecânica"
         school:
           name: "Universidade Federal do Rio Grande do Norte (UFRN)"
