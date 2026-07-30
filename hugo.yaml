@@ -72,6 +72,8 @@ languages:
                   costs, contributing directly to the company's financial results.
           - company: "Implasverde"
             companyUrl: "https://implasverde.ind.br/"
+            image: "images/implasverde-team.jpg"
+            imageCaption: "Implasverde team — 160 employees, 2022–2025"
             jobs:
               - name: "Industrial Manager"
                 date: "Jan 2022 - Apr 2025"
@@ -394,6 +396,8 @@ params:
               os resultados financeiros da companhia.
       - company: "Implasverde"
         companyUrl: "https://implasverde.ind.br/"
+        image: "images/implasverde-team.jpg"
+        imageCaption: "Equipe Implasverde — 160 colaboradores, 2022–2025"
         jobs:
           - name: "Gerente Industrial"
             date: "Jan 2022 - Abr 2025"
