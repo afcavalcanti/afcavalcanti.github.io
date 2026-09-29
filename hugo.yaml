@@ -44,7 +44,7 @@ languages:
           in manufacturing and agribusiness companies — and it was on the shop floor that I found the
           problems that later became software.
 
-          Together with my partner Rodrigo Bessa, I co-founded [Soluções Integradas](https://solucoesintegradas.com.br).
+          I joined [Soluções Integradas](https://solucoesintegradas.com.br), founded in 2024 by my partner Rodrigo Bessa and others, as a partner in 2025.
           Every product we built started as a real pain point that I or Rodrigo experienced ourselves: ManOS
           came from the struggle of managing maintenance without a proper system, SOFIN from the lack of
           accessible financial control for SMEs. We build tools we actually use.
@@ -64,7 +64,7 @@ languages:
             companyUrl: "https://nordestefruit.com/"
             jobs:
               - name: "Industrial Manager"
-                date: "May 2025 - Sep 2025"
+                date: "May 2025 - Oct 2025"
                 content: |-
                   Responsible for managing and developing a team of 30 multifunctional professionals.
                   Process optimization strategies resulted in significant improvements in energy
@@ -76,17 +76,16 @@ languages:
             imageCaption: "Implasverde team — 160 employees, 2022–2025"
             jobs:
               - name: "Industrial Manager"
-                date: "Jan 2022 - Apr 2025"
+                date: "May 2022 - May 2025"
                 content: |-
                   Managed a cross-functional team of 160 employees across production and support
                   sectors. Strategies implemented resulted in production and process optimization
-                  aligned with corporate objectives, delivering a 33% increase in productivity.
+                  aligned with corporate objectives.
               - name: "Maintenance Supervisor"
-                date: "Nov 2020 - Dec 2021"
+                date: "May 2021 - May 2022"
                 content: |-
                   Led a team of 10 professionals in the successful implementation of Maintenance
-                  Planning and Control (PCM). Strategic actions reduced maintenance costs by 17%
-                  and raised operational efficiency.
+                  Planning and Control (PCM).
           - company: "Guararapes Confecções"
             companyUrl: "https://ri.riachuelo.com.br/"
             jobs:
@@ -136,8 +135,15 @@ languages:
             content: |-
               Thesis: *Machinery Guardian: Optimizing Maintenance with Artificial Intelligence and Autonomy*
 
-              Extracurricular: developed an unsupervised autonomous maintenance system for wind
-              turbine gearboxes using SOM neural networks, with field work carried out at
+              Field study: unsupervised autonomous maintenance system applied for eight months,
+              integrated with the ERP, to a bag-making machine at a plastics manufacturer in Rio
+              Grande do Norte. Breakdowns fell from 18 to about 3 per month, monthly spare-parts
+              cost dropped by 50%, and the average inspection took 13 minutes against 248 minutes
+              of downtime per breakdown.
+
+              Extracurricular: separate research project (2021–2023, coordinated by Prof. Efrain
+              Pantaleón Matamoros) on unsupervised autonomous maintenance for wind turbine
+              gearboxes using SOM neural networks, with field work carried out at
               [ABS Wind do Brasil](https://abswind.com.br/).
           - title: "B.Eng. in Mechanical Engineering"
             school:
@@ -145,11 +151,12 @@ languages:
               url: "https://ufrn.br"
             date: "2018 - 2021"
             content: |-
-              Final project: *Unsupervised Autonomous Maintenance System Using Artificial Intelligence*
+              Final project: *Unsupervised Autonomous Maintenance System Using Artificial Intelligence*,
+              applied to a chiller.
 
-              Extracurricular: coordinated the research project *Detection and Classification of
-              Cardiac Diseases in Humans with SOM Neural Networks* — multidisciplinary team of
-              five undergraduates, with publication at an international conference (2020–2022).
+              Extracurricular: member of the research project *Detection and Classification of
+              Cardiac Diseases in Humans with SOM Neural Networks* (2020–2022), coordinated by
+              Prof. Marco Antônio Leandro Cabral — multidisciplinary team of five undergraduates.
           - title: "B.Sc. in Science and Technology"
             school:
               name: "Universidade Federal do Rio Grande do Norte (UFRN)"
@@ -169,10 +176,11 @@ languages:
             title: "Detection and Classification of Water Chiller Failures Using Artificial Neural Networks"
             venue: "7th International Conference on Integrity-Reliability-Failure (IRF2020) · Funchal, Portugal · pp. 91–92"
             authors: "Cavalcanti, A. F.; Souza, A. S.; Pinto, A. P. V.; Oliveira, L. P. W.; Julião, R. B.; Cabral, M. A. L.; Matamoros, E. P.; Seabra, E. A. R."
-          - year: "2020"
-            title: "Detection and Classification of Bag Making Machine Failures Using Artificial Neural Networks"
-            venue: "7th International Conference on Integrity-Reliability-Failure (IRF2020) · Funchal, Portugal"
-            authors: "Cavalcanti, A. F.; Oliveira, L. P. W.; Cabral, M. A. L.; Matamoros, E. P.; Seabra, E. A. R."
+          - year: "2019"
+            title: "Average Superficial Roughness Analysis of Manufactured Pipes by 3D Printing"
+            venue: "25th ABCM International Congress of Mechanical Engineering (COBEM 2019) · Uberlândia, Brazil"
+            authors: "Santos, L. F. A.; Rangel, J. F.; Cavalcanti, A. F.; Bessa, K. L.; Santos, W. B. A."
+            link: "https://doi.org/10.26678/ABCM.COBEM2019.COB2019-1537"
           - year: "2017"
             title: "Evaluate Leap Motion Control for Multiple Hand Posture Recognition"
             venue: "19th Symposium on Virtual and Augmented Reality (SVR) · Curitiba, Brazil"
@@ -231,7 +239,7 @@ languages:
             content: |-
               Computer-vision system that detects and classifies electrical grid assets in the
               field — 17 classes plus nameplate OCR — from field imagery. Built by Soluções
-              Integradas and validated by Intellissis in real operation, reaching 85.6% mAP50.
+              Integradas and validated by Intellissis in real operation, reaching 83.85% mAP50.
             image: /images/projects/deteccao-objetos.png
             featured:
               name: Conhecer
@@ -364,7 +372,7 @@ params:
       como gerente industrial em empresas de manufatura e agronegócio, e foi nesse campo que
       identifiquei as dores que mais tarde viraram software.
 
-      Junto com meu sócio Rodrigo Bessa, fundei a [Soluções Integradas](https://solucoesintegradas.com.br).
+      Sou sócio da [Soluções Integradas](https://solucoesintegradas.com.br), fundada em 2024 por Rodrigo Bessa e outros sócios, onde entrei em 2025.
       Cada produto que desenvolvemos nasceu de um problema real que eu ou Rodrigo enfrentamos: o ManOS
       veio da dificuldade de gerenciar manutenção sem um sistema adequado, o SOFIN da falta de controle
       financeiro acessível para PMEs, e assim por diante. Construímos ferramentas que realmente usamos.
@@ -387,7 +395,7 @@ params:
         companyUrl: "https://nordestefruit.com/"
         jobs:
           - name: "Gerente Industrial"
-            date: "Mai 2025 - Set 2025"
+            date: "Mai 2025 - Out 2025"
             content: |-
               Responsável pela gestão e desenvolvimento de uma equipe de 30 profissionais
               multifuncionais. Estratégias de otimização de processos resultaram em melhorias
@@ -400,18 +408,17 @@ params:
         imageCaption: "Equipe Implasverde — 160 colaboradores, 2022–2025"
         jobs:
           - name: "Gerente Industrial"
-            date: "Jan 2022 - Abr 2025"
+            date: "Mai 2022 - Mai 2025"
             content: |-
               Gerenciamento de uma equipe multifuncional de 160 colaboradores, supervisionando
               operações em diversos setores produtivos e de apoio. Estratégias implementadas
               resultaram em otimização da produção e processos, alinhados aos objetivos
-              corporativos, com aumento de 33% na produtividade.
+              corporativos.
           - name: "Supervisor de Manutenção"
-            date: "Nov 2020 - Dez 2021"
+            date: "Mai 2021 - Mai 2022"
             content: |-
               Liderança de equipe composta por 10 profissionais na implantação bem-sucedida do
-              Planejamento e Controle da Manutenção (PCM). Ações estratégicas reduziram em 17%
-              os custos de manutenção e elevaram a eficiência operacional.
+              Planejamento e Controle da Manutenção (PCM).
       - company: "Guararapes Confecções"
         companyUrl: "https://ri.riachuelo.com.br/"
         jobs:
@@ -467,20 +474,28 @@ params:
         content: |-
           Dissertação: *Machinery Guardian: Otimizando Manutenção com Inteligência Artificial e Autonomia*
 
-          Extracurricular: desenvolvimento do sistema de manutenção autônomo não supervisionado
-          para gearboxes de aerogeradores usando redes neurais SOM, com trabalho de campo
-          realizado na [ABS Wind do Brasil](https://abswind.com.br/).
+          Estudo de campo: sistema de manutenção autônomo não supervisionado aplicado por oito meses,
+          integrado ao ERP, a uma máquina de fazer sacolas em uma indústria de plásticos do Rio
+          Grande do Norte. As quebras caíram de 18 para cerca de 3 por mês, o custo mensal de
+          peças de reposição caiu 50% e a inspeção média levou 13 minutos, contra 248 minutos
+          de parada por quebra.
+
+          Extracurricular: projeto de pesquisa separado (2021–2023, coordenado pelo Prof. Efrain
+          Pantaleón Matamoros) de manutenção autônoma não supervisionada para gearboxes de
+          aerogeradores usando redes neurais SOM, com trabalho de campo realizado na
+          [ABS Wind do Brasil](https://abswind.com.br/).
       - title: "Bacharelado em Engenharia Mecânica"
         school:
           name: "Universidade Federal do Rio Grande do Norte (UFRN)"
           url: "https://ufrn.br"
         date: "2018 - 2021"
         content: |-
-          TCC: *Sistema de Manutenção Autônoma Não Supervisionado com o Uso de Inteligência Artificial*
+          TCC: *Sistema de Manutenção Autônoma Não Supervisionado com o Uso de Inteligência Artificial*,
+          aplicado a um chiller.
 
-          Extracurricular: coordenador do projeto de pesquisa *Detecção e Classificação de
-          Cardiopatias em Seres Humanos com Redes Neurais SOM* — equipe multidisciplinar de
-          cinco graduandos, com publicação em conferência internacional (2020–2022).
+          Extracurricular: integrante do projeto de pesquisa *Detecção e Classificação de
+          Cardiopatias em Seres Humanos com Redes Neurais SOM* (2020–2022), coordenado pelo
+          Prof. Marco Antônio Leandro Cabral — equipe multidisciplinar de cinco graduandos.
       - title: "Bacharelado em Ciências e Tecnologia"
         school:
           name: "Universidade Federal do Rio Grande do Norte (UFRN)"
@@ -501,10 +516,11 @@ params:
         title: "Detection and Classification of Water Chiller Failures Using Artificial Neural Networks"
         venue: "7th International Conference on Integrity-Reliability-Failure (IRF2020) · Funchal, Portugal · pp. 91–92"
         authors: "Cavalcanti, A. F.; Souza, A. S.; Pinto, A. P. V.; Oliveira, L. P. W.; Julião, R. B.; Cabral, M. A. L.; Matamoros, E. P.; Seabra, E. A. R."
-      - year: "2020"
-        title: "Detection and Classification of Bag Making Machine Failures Using Artificial Neural Networks"
-        venue: "7th International Conference on Integrity-Reliability-Failure (IRF2020) · Funchal, Portugal"
-        authors: "Cavalcanti, A. F.; Oliveira, L. P. W.; Cabral, M. A. L.; Matamoros, E. P.; Seabra, E. A. R."
+      - year: "2019"
+        title: "Average Superficial Roughness Analysis of Manufactured Pipes by 3D Printing"
+        venue: "25th ABCM International Congress of Mechanical Engineering (COBEM 2019) · Uberlândia, Brasil"
+        authors: "Santos, L. F. A.; Rangel, J. F.; Cavalcanti, A. F.; Bessa, K. L.; Santos, W. B. A."
+        link: "https://doi.org/10.26678/ABCM.COBEM2019.COB2019-1537"
       - year: "2017"
         title: "Evaluate Leap Motion Control for Multiple Hand Posture Recognition"
         venue: "19th Symposium on Virtual and Augmented Reality (SVR) · Curitiba, Brasil"
@@ -576,7 +592,7 @@ params:
         content: |-
           Sistema de visão computacional que detecta e classifica ativos de redes elétricas em
           campo — 17 classes e OCR de placas — a partir de imagens. Desenvolvido pela Soluções
-          Integradas e validado pela Intellissis em operação real, com 85,6% de mAP50.
+          Integradas e validado pela Intellissis em operação real, com 83,85% de mAP50.
         image: /images/projects/deteccao-objetos.png
         featured:
           name: Conhecer
